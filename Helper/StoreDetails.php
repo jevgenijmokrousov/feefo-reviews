@@ -21,21 +21,21 @@ use Zend\Uri\Http;
  */
 class StoreDetails extends DataObject implements StoreDetailsInterface
 {
-    public const TEMPLATE_DEFAULT_MERCHANT_NAME = "%s Merchant Name";
+    const TEMPLATE_DEFAULT_MERCHANT_NAME = "%s Merchant Name";
 
-    public const DEFAULT_MERCHANT_LANGUAGE = "en_US";
+    const DEFAULT_MERCHANT_LANGUAGE = "en_US";
 
-    public const TEMPLATE_DEFAULT_MERCHANT_DESCRIPTION = '%s Store';
+    const TEMPLATE_DEFAULT_MERCHANT_DESCRIPTION = '%s Store';
 
-    public const ROUTE_CONFIGURATION_PAGE = 'feefo/options/index';
+    const ROUTE_CONFIGURATION_PAGE = 'feefo/options/index';
 
-    public const XPATH_GENERAL_EMAIL = 'trans_email/ident_general/email';
+    const XPATH_GENERAL_EMAIL = 'trans_email/ident_general/email';
 
-    public const XPATH_GENERAL_EMAIL_NAME = 'trans_email/ident_general/name';
+    const XPATH_GENERAL_EMAIL_NAME = 'trans_email/ident_general/name';
 
-    public const DEFAULT_STORE_OWNER = 'Store Owner';
+    const DEFAULT_STORE_OWNER = 'Store Owner';
 
-    public const DEFAULT_MERCHANT_EMAIL = 'default@email.com';
+    const DEFAULT_MERCHANT_EMAIL = 'default@email.com';
 
     /**
      * @var ScopeInterface

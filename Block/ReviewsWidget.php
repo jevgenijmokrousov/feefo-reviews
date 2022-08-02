@@ -14,9 +14,9 @@ use Magento\Framework\View\Element\Template\Context as TemplateContext;
  */
 class ReviewsWidget extends AbstractWidget
 {
-    public const KEY_ALREADY_REGISTRED = "feefo_reviews_reviews_registered";
+    const KEY_ALREADY_REGISTRED = "feefo_reviews_reviews_registered";
 
-    public const PLACEHOLDER_PRODUCT_ID = "{{ product.id }}";
+    const PLACEHOLDER_PRODUCT_ID = "{{ product.id }}";
 
     /**
      * @var  Registry

@@ -12,27 +12,27 @@ interface RegistrationRequestInterface
     /**
      * Available data
      */
-    public const ACCESS_TOKEN = 'accessToken';
+    const ACCESS_TOKEN = 'accessToken';
 
-    public const MERCHANT_DOMAIN = 'merchantDomain';
+    const MERCHANT_DOMAIN = 'merchantDomain';
 
-    public const MERCHANT_NAME = 'merchantName';
+    const MERCHANT_NAME = 'merchantName';
 
-    public const MERCHANT_DESCRIPTION = 'merchantDescription';
+    const MERCHANT_DESCRIPTION = 'merchantDescription';
 
-    public const MERCHANT_URL = 'merchantUrl';
+    const MERCHANT_URL = 'merchantUrl';
 
-    public const MERCHANT_LANGUAGE = 'merchantLanguage';
+    const MERCHANT_LANGUAGE = 'merchantLanguage';
 
-    public const MERCHANT_ADMIN_USER_EMAIL = 'merchantAdminUserEmail';
+    const MERCHANT_ADMIN_USER_EMAIL = 'merchantAdminUserEmail';
 
-    public const MERCHANT_SHOP_OWNER = 'merchantShopOwner';
+    const MERCHANT_SHOP_OWNER = 'merchantShopOwner';
 
-    public const MERCHANT_IMAGE_URL = 'merchantImageUrl';
+    const MERCHANT_IMAGE_URL = 'merchantImageUrl';
 
-    public const STORE_IDS = 'storeIds';
+    const STORE_IDS = 'storeIds';
 
-    public const REDIRECT_URL = 'redirectUrl';
+    const REDIRECT_URL = 'redirectUrl';
 
     /**
      * Get access token

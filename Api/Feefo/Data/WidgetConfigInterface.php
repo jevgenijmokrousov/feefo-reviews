@@ -13,24 +13,24 @@ interface WidgetConfigInterface
      * Available placements
      */
 
-    public const PLACEMENT_AUTO = 'AUTO';
+    const PLACEMENT_AUTO = 'AUTO';
 
-    public const PLACEMENT_CUSTOM = 'CUSTOM';
+    const PLACEMENT_CUSTOM = 'CUSTOM';
 
     /**
      * Available configs
      */
-    public const NATIVE_PLATFORM_REVIEW_SYSTEM = 'nativePlatformReviewSystem';
+    const NATIVE_PLATFORM_REVIEW_SYSTEM = 'nativePlatformReviewSystem';
 
-    public const PRODUCT_REVIEWS_WIDGET = 'productReviewsWidget';
+    const PRODUCT_REVIEWS_WIDGET = 'productReviewsWidget';
 
-    public const PRODUCT_WIDGET_PLACEMENT = 'productWidgetPlacement';
+    const PRODUCT_WIDGET_PLACEMENT = 'productWidgetPlacement';
 
-    public const PRODUCT_LISTING_STARS = 'productListingStars';
+    const PRODUCT_LISTING_STARS = 'productListingStars';
 
-    public const PRODUCT_LISTING_STARS_PLACEMENT = 'productListingStarsPlacement';
+    const PRODUCT_LISTING_STARS_PLACEMENT = 'productListingStarsPlacement';
 
-    public const SERVICE_REVIEWS_WIDGET = 'serviceReviewsWidget';
+    const SERVICE_REVIEWS_WIDGET = 'serviceReviewsWidget';
 
     /**
      * Retrieve should the native review system be enabled or not

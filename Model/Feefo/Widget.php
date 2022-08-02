@@ -20,13 +20,13 @@ use Psr\Log\LoggerInterface;
  */
 class Widget extends AbstractEntryPoint implements WidgetInterface
 {
-    public const API_GET_SETTINGS = 'get_widget_configs';
+    const API_GET_SETTINGS = 'get_widget_configs';
 
-    public const API_SET_SETTINGS = 'set_widget_configs';
+    const API_SET_SETTINGS = 'set_widget_configs';
 
-    public const PLACEHOLDER_PLUGIN_ID = ':{pluginId}';
+    const PLACEHOLDER_PLUGIN_ID = ':{pluginId}';
 
-    public const PLACEHOLDER_HMAC = ':{hmac}';
+    const PLACEHOLDER_HMAC = ':{hmac}';
 
     /**
      * @var HttpClientInterface

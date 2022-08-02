@@ -12,21 +12,21 @@ use Feefo\Reviews\Api\Feefo\Data\WidgetSnippetInterface;
  */
 interface StorageInterface
 {
-    public const XPATH_ACCESS_KEY = 'feefo/service/access_key';
+    const XPATH_ACCESS_KEY = 'feefo/service/access_key';
 
-    public const XPATH_USER_ID = 'feefo/service/user_id';
+    const XPATH_USER_ID = 'feefo/service/user_id';
 
-    public const XPATH_PLUGIN_ID = 'feefo/service/plugin_id';
+    const XPATH_PLUGIN_ID = 'feefo/service/plugin_id';
 
-    public const XPATH_WEBSITE_URL = 'feefo/general/website_url';
+    const XPATH_WEBSITE_URL = 'feefo/general/website_url';
 
-    public const XPATH_STORE_IDS = 'feefo/general/sore_ids';
+    const XPATH_STORE_IDS = 'feefo/general/sore_ids';
 
-    public const XPATH_WIDGET_SETTINGS = 'feefo/widget/settings';
+    const XPATH_WIDGET_SETTINGS = 'feefo/widget/settings';
 
-    public const XPATH_WIDGET_SNIPPETS = 'feefo/widget/snippets';
+    const XPATH_WIDGET_SNIPPETS = 'feefo/widget/snippets';
 
-    public const XPATH_OVERRIDE_TEMPLATE = 'feefo/widget/override_product_listing_template';
+    const XPATH_OVERRIDE_TEMPLATE = 'feefo/widget/override_product_listing_template';
 
     /**
      * Get token for getting access to store

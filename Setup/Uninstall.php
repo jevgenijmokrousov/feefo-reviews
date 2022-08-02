@@ -20,12 +20,12 @@ class Uninstall implements UninstallInterface
     /**
      * Core Config Data Table Name
      */
-    public const CORE_CONFIG_TABLE_NAME = 'core_config_data';
+    const CORE_CONFIG_TABLE_NAME = 'core_config_data';
 
     /**
      * Admin User Table Name
      */
-    public const ADMIN_USER_TABLE_NAME = 'admin_user';
+    const ADMIN_USER_TABLE_NAME = 'admin_user';
 
     /**
      * Logger

@@ -7,9 +7,9 @@ namespace Feefo\Reviews\Api\Feefo;
  */
 interface EntryPointInterface
 {
-    public const XPATH_ENTRY_POINT_BASE_URL = 'feefo/general/base_url';
+    const XPATH_ENTRY_POINT_BASE_URL = 'feefo/general/base_url';
 
-    public const XPATH_ENTRY_POINT_PREFIX = 'feefo/entry_points/';
+    const XPATH_ENTRY_POINT_PREFIX = 'feefo/entry_points/';
 
     /**
      * Get base Url of service

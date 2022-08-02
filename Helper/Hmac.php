@@ -14,13 +14,13 @@ use Psr\Log\LoggerInterface;
  */
 class Hmac implements HmacInterface
 {
-    public const TEMPLATE_HMAC = 'pluginId={$pluginId}&host={$merchantDomain}&timeStamp={$timeStamp}';
+    const TEMPLATE_HMAC = 'pluginId={$pluginId}&host={$merchantDomain}&timeStamp={$timeStamp}';
 
-    public const PLACEHOLDER_PLUGIN_ID = '{$pluginId}';
+    const PLACEHOLDER_PLUGIN_ID = '{$pluginId}';
 
-    public const PLACEHOLDER_HOST = '{$merchantDomain}';
+    const PLACEHOLDER_HOST = '{$merchantDomain}';
 
-    public const PLACEHOLDER_TIMESTAMP = '{$timeStamp}';
+    const PLACEHOLDER_TIMESTAMP = '{$timeStamp}';
 
     /**
      * Feefo Storage

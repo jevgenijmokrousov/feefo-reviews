@@ -26,12 +26,12 @@ class Storage implements StorageInterface
     /**
      * Review Module Name
      */
-    public const REVIEW_MODULE_NAME = 'Magento_Review';
+    const REVIEW_MODULE_NAME = 'Magento_Review';
 
     /**
      * Core Config Data Table Name
      */
-    public const CORE_CONFIG_TABLE_NAME = 'core_config_data';
+    const CORE_CONFIG_TABLE_NAME = 'core_config_data';
 
     /**
      * @var ScopeConfigInterface

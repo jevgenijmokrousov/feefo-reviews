@@ -14,7 +14,7 @@ use Magento\Framework\View\Element\Template\Context as TemplateContext;
  */
 class ProductRating extends AbstractWidget
 {
-    public const PLACEHOLDER_PRODUCT_ID = "{{ product.id }}";
+    const PLACEHOLDER_PRODUCT_ID = "{{ product.id }}";
 
     /**
      * @var Registry

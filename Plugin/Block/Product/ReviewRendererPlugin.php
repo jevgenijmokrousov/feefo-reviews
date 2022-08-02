@@ -17,7 +17,7 @@ class ReviewRendererPlugin
     /**
      * Rating block name
      */
-    public const FEEFO_BLOCK_NAME = 'category.products.list.feefoRating';
+    const FEEFO_BLOCK_NAME = 'category.products.list.feefoRating';
 
     /**
      * Get product feefo reviews summary

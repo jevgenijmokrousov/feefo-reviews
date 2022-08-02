@@ -10,13 +10,13 @@ use Feefo\Reviews\Api\Feefo\Data\WidgetSnippetInterface;
  */
 interface WidgetWrapperInterface
 {
-    public const DATA_WIDGET_SETTINGS = 'widgetSettings';
+    const DATA_WIDGET_SETTINGS = 'widgetSettings';
 
-    public const DATA_SNIPPET_PREVIEW = 'snippetsPreview';
+    const DATA_SNIPPET_PREVIEW = 'snippetsPreview';
 
-    public const DATA_REDIRECT_URL = 'redirectUrl';
+    const DATA_REDIRECT_URL = 'redirectUrl';
 
-    public const DATA_ACCESS_TOKEN = 'accessToken';
+    const DATA_ACCESS_TOKEN = 'accessToken';
 
     /**
      * Retrieve widget settings

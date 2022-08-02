@@ -9,17 +9,17 @@ namespace Feefo\Reviews\Api\Feefo\Data;
  */
 interface ServiceInterface
 {
-    public const PLUGIN_ID = 'pluginId';
+    const PLUGIN_ID = 'pluginId';
 
-    public const REGISTRATION_URL = 'registrationUrl';
+    const REGISTRATION_URL = 'registrationUrl';
 
-    public const REDIRECT_URL = 'redirectUrl';
+    const REDIRECT_URL = 'redirectUrl';
 
-    public const REGISTRATION_URI = 'registrationUri';
+    const REGISTRATION_URI = 'registrationUri';
 
-    public const CONFIGURATION_URL = 'configurationUrl';
+    const CONFIGURATION_URL = 'configurationUrl';
 
-    public const CONFIGURATION_URI = 'configurationUri';
+    const CONFIGURATION_URI = 'configurationUri';
 
     /**
      * Retrieve plugin ID

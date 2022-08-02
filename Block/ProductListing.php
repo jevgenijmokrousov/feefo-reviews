@@ -12,11 +12,11 @@ use Magento\Framework\View\Element\Template;
  */
 class ProductListing extends AbstractWidget
 {
-    public const PLACEHOLDER_PRODUCT_ID = "{{ product.id }}";
+    const PLACEHOLDER_PRODUCT_ID = "{{ product.id }}";
 
-    public const PLACEHOLDER_TEMPLATE_NAME = "{{ template.name }}";
+    const PLACEHOLDER_TEMPLATE_NAME = "{{ template.name }}";
 
-    public const DEFAULT_TEMPLATE = 'product-page-orange-stars-only-85x18.png';
+    const DEFAULT_TEMPLATE = 'product-page-orange-stars-only-85x18.png';
 
     /**
      * @var Product

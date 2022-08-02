@@ -17,7 +17,7 @@ class UninstallPluginRequest extends AbstractEntryPoint implements UninstallPlug
     /**
      * Uninstall resource route
      */
-    public const API_UNINSTALL = 'uninstall';
+    const API_UNINSTALL = 'uninstall';
 
     /**
      * Http Client

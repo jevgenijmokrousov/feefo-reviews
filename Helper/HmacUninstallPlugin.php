@@ -15,23 +15,23 @@ class HmacUninstallPlugin
     /**
      * HMAC template for plugin uninstallation
      */
-    public const TEMPLATE_HMAC_UNINSTALL_PLUGIN =
+    const TEMPLATE_HMAC_UNINSTALL_PLUGIN =
         'pluginId={$pluginId}&timeStamp={$timeStamp}&accessToken={$accessToken}';
 
     /**
      * Access token placeholder
      */
-    public const PLACEHOLDER_ACCESS_TOKEN = '{$accessToken}';
+    const PLACEHOLDER_ACCESS_TOKEN = '{$accessToken}';
 
     /**
      * Timestamp placeholder
      */
-    public const PLACEHOLDER_TIMESTAMP = '{$timeStamp}';
+    const PLACEHOLDER_TIMESTAMP = '{$timeStamp}';
 
     /**
      * Plugin id placeholder
      */
-    public const PLACEHOLDER_PLUGIN_ID = '{$pluginId}';
+    const PLACEHOLDER_PLUGIN_ID = '{$pluginId}';
 
     /**
      * Message

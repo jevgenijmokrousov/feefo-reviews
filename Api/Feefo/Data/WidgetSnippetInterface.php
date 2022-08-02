@@ -7,13 +7,13 @@ namespace Feefo\Reviews\Api\Feefo\Data;
  */
 interface WidgetSnippetInterface
 {
-    public const DATA_SERVICE_SNIPPET = 'serviceSnippet';
+    const DATA_SERVICE_SNIPPET = 'serviceSnippet';
 
-    public const DATA_PRODUCT_STARS_SNIPPET = 'productStarsSnippet';
+    const DATA_PRODUCT_STARS_SNIPPET = 'productStarsSnippet';
 
-    public const DATA_PRODUCT_BASE_SNIPPET = 'productBaseSnippet';
+    const DATA_PRODUCT_BASE_SNIPPET = 'productBaseSnippet';
 
-    public const DATA_PRODUCT_LIST_SNIPPET = 'productListSnippet';
+    const DATA_PRODUCT_LIST_SNIPPET = 'productListSnippet';
 
     /**
      * Retrieve a snippet of the service widget

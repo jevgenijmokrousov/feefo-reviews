@@ -16,7 +16,7 @@ use Psr\Log\LoggerInterface;
  */
 class Registration extends AbstractEntryPoint implements RegistrationInterface
 {
-    public const API_REGISTRATION = 'registration';
+    const API_REGISTRATION = 'registration';
 
     /**
      * @var HttpClientInterface

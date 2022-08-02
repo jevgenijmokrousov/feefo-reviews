@@ -7,9 +7,9 @@ namespace Feefo\Reviews\Api\Feefo\Data;
  */
 interface ConfigurationRequestInterface
 {
-    public const PLUGIN_ID = 'pluginId';
+    const PLUGIN_ID = 'pluginId';
 
-    public const REDIRECT_URL = 'redirectUrl';
+    const REDIRECT_URL = 'redirectUrl';
 
     /**
      * Returns plugin id

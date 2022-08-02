@@ -29,19 +29,19 @@ class InstallFeefoData implements DataPatchInterface
     /**
      * Admin User Data Constants
      */
-    public const DATA_USERNAME = 'feefo';
+    const DATA_USERNAME = 'feefo';
 
-    public const DATA_USER_EMAIL = 'technical@feefo.com';
+    const DATA_USER_EMAIL = 'technical@feefo.com';
 
-    public const DATA_USER_FIRST_NAME = 'Feefo';
+    const DATA_USER_FIRST_NAME = 'Feefo';
 
-    public const DATA_USER_LAST_NAME = 'Feefo';
+    const DATA_USER_LAST_NAME = 'Feefo';
 
-    public const DATA_IS_ACTIVE = 1;
+    const DATA_IS_ACTIVE = 1;
 
-    public const DATA_IS_INACTIVE = 0;
+    const DATA_IS_INACTIVE = 0;
 
-    public const PREFIX_PASSWORD = 'feefo';
+    const PREFIX_PASSWORD = 'feefo';
 
     /**
      * @var State
